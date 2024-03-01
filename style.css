@@ -1,0 +1,49 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+
+video {
+    display: block;
+    width: 100%;
+    border: 5px solid red;
+}
+
+.video-component {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 12px;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn-fullscreen {
+    background-color: aqua;
+}   
+
+.btn-play {
+    background-color: tomato;
+    color: white;
+}
+
+.btn-minimize {
+    background-color: black;
+    color: white;
+}
+
